@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include layout="@layout/calcultitle"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/ic_launcher_background">
+
+        <Button
+            android:id="@+id/his"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/findhistory" />
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_launcher_background"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/num4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/home1"
+            android:text="@string/_1" />
+
+        <Button
+            android:id="@+id/num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/num1"
+            android:layout_alignBottom="@+id/num1"
+            android:layout_toEndOf="@+id/num1"
+            android:layout_toRightOf="@+id/num1"
+            android:background="@drawable/home1"
+            android:text="@string/_2" />
+
+        <Button
+            android:id="@+id/num3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/num2"
+            android:layout_alignBottom="@+id/num2"
+            android:layout_toEndOf="@+id/num2"
+            android:layout_toRightOf="@+id/num2"
+            android:background="@drawable/home1"
+            android:text="@string/_3" />
+
+        <Button
+            android:id="@+id/num4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/num8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/home1"
+            android:text="@string/_4" />
+
+        <Button
+            android:id="@+id/num5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/num2"
+            android:layout_toEndOf="@+id/num4"
+            android:layout_toRightOf="@+id/num4"
+            android:background="@drawable/home1"
+            android:text="@string/_5" />
+
+        <Button
+            android:id="@+id/num6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/num5"
+            android:layout_alignBottom="@+id/num5"
+            android:layout_toEndOf="@+id/num5"
+            android:layout_toRightOf="@+id/num5"
+            android:background="@drawable/home1"
+            android:text="@string/_6" />
+
+        <Button
+            android:id="@+id/num7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/num4"
+            android:background="@drawable/home1"
+            android:text="@string/_7" />
+
+        <Button
+            android:id="@+id/num8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/num0"
+            android:layout_toEndOf="@+id/num7"
+            android:layout_toRightOf="@+id/num7"
+            android:background="@drawable/home1"
+            android:text="@string/_8" />
+
+        <Button
+            android:id="@+id/num9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/num8"
+            android:layout_alignBottom="@+id/num8"
+            android:layout_toEndOf="@+id/num8"
+            android:layout_toRightOf="@+id/num8"
+            android:background="@drawable/home1"
+            android:text="@string/_9" />
+
+        <Button
+            android:id="@+id/num0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/num7"
+            android:layout_toRightOf="@+id/num7"
+            android:background="@drawable/home1"
+            android:text="@string/_0" />
+
+        <Button
+            android:id="@+id/numd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mul"
+            android:layout_toEndOf="@+id/num1"
+            android:layout_toRightOf="@+id/num1"
+            android:background="@drawable/home1"
+            android:text="@string/dotdotdot" />
+        <!--符号位   -->
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/num6"
+            android:layout_alignBottom="@+id/num6"
+            android:layout_toEndOf="@+id/num3"
+            android:layout_toRightOf="@+id/num3"
+            android:background="@drawable/home2"
+            android:text="@string/add"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="108dp" />
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/num9"
+            android:layout_toRightOf="@+id/num9"
+            android:background="@drawable/home2"
+            android:text="@string/substrat" />
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/num3"
+            android:layout_alignBottom="@+id/num3"
+            android:layout_toEndOf="@+id/num3"
+            android:layout_toRightOf="@+id/num3"
+            android:background="@drawable/home2"
+            android:text="@string/multiply" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/num9"
+            android:layout_alignBottom="@+id/num9"
+            android:layout_toEndOf="@+id/num6"
+            android:layout_toRightOf="@+id/num6"
+            android:background="@drawable/home2"
+            android:text="@string/div" />
+
+        <Button
+            android:id="@+id/hua1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/home2"
+            android:text="@string/zuokuohao" />
+
+        <Button
+            android:id="@+id/hua2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/num8"
+            android:layout_toRightOf="@+id/num8"
+            android:background="@drawable/home2"
+            android:text="@string/youkuohao" />
+
+        <Button
+            android:id="@+id/cal"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/num3"
+            android:layout_toEndOf="@+id/numd"
+            android:layout_toRightOf="@+id/numd"
+            android:text="@string/calcu" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/num1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/cleareverything" />
+
+        <Button
+            android:id="@+id/gridback"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/cal"
+            android:layout_alignBottom="@+id/cal"
+            android:layout_toEndOf="@+id/num3"
+            android:layout_toRightOf="@+id/num3"
+            android:text="@string/tuige" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="22dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+    </RelativeLayout>
+</LinearLayout>
